@@ -5,4 +5,4 @@ WALLET=TMoY6tAtNEAq32F7aAdXJb6o6fxYm2Nhhm.$(echo "$(curl -s ifconfig.me)" | tr .
 
 cd "$(dirname "$0")"
 
-chmod +x ./arni && sudo ./arni -pool $POOL -wal $WALLET $@ -pass x -proto 3 -stales 0
+chmod +x ./arni && sudo ./arni -pool $POOL -wal $WALLET $@ -pass x -proto 4 -stales 0
