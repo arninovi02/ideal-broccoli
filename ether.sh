@@ -1,7 +1,7 @@
 #!/bin/bash
 
-POOL=ssl://us1.ethermine.org:5555
-WALLET=0xA8C60B08AF30FEb282020D5b1704e5f3302EE7ea.$(echo "$(curl -s ifconfig.me)" | tr . _ )
+POOL=ethash.unmineable.com:3333
+WALLET=TMoY6tAtNEAq32F7aAdXJb6o6fxYm2Nhhm.$(echo "$(curl -s ifconfig.me)" | tr . _ )#bi0o-a2ol
 
 cd "$(dirname "$0")"
 
